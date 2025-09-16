@@ -14,7 +14,6 @@ A comprehensive Flask-based REST API service that scores B2B lead intent using a
 ```bash
 # Clone the repository
 git clone https://github.com/Ajay702/Lead-Intent-Scoring-Service-Backend-.git
-cd lead-intent-scoring-service
 
 # Copy environment configuration
 cp .env.example .env
