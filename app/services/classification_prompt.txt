@@ -1,0 +1,17 @@
+You are an expert B2B sales analyst.
+Given the following Product/Offer and Prospect details, classify the lead intent as one of: High, Medium, Low, and explain in 1–2 sentences.
+
+Offer:
+- Name: {offer[name]}
+- Value Props: {offer[value_props]}
+- Ideal Use Cases: {offer[ideal_use_cases]}
+
+Prospect:
+- Name: {lead[name]}
+- Role: {lead[role]}
+- Company: {lead[company]}
+- Industry: {lead[industry]}
+- Location: {lead[location]}
+- Bio: {lead[linkedin_bio]}
+
+Respond with a concise sentence that includes the intent label (High/Medium/Low) and justification.
